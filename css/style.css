@@ -1158,82 +1158,105 @@ section::before {
 
 @media (max-width: 768px) {
     .experience {
-        padding: 60px 14%;
+        padding: 40px 5%;
     }
-    
+
     .experience-card {
-        padding: 2.5rem;
+        padding: 1.5rem;
     }
-    
+
     .experience-header {
         flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
         text-align: center;
-        gap: 2rem;
     }
-    
-    .company-logo {
-        width: 140px;
-        height: 140px;
-        margin: 0 auto;
+
+    .company-logo img {
+        width: 120px;
+        height: auto;
     }
-    
+
     .company-details h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-    
+
     .company-details h3 {
+        font-size: 1rem;
+    }
+
+    .position-info h4 {
         font-size: 1.1rem;
     }
-    
+
     .career-timeline {
         flex-direction: column;
+        align-items: center;
         gap: 1rem;
     }
-    
-    .career-timeline::before {
-        display: none;
+
+    .career-arrow {
+        transform: rotate(90deg);
     }
-    
-    .career-step {
-        width: 100%;
+
+    .experience-body {
+        padding: 1rem 0;
     }
-    
-    .step-content {
-        max-width: 300px;
-        margin: 0 auto;
+
+    .experience-highlights ul,
+    .experience-achievements ul {
+        padding-left: 1.2rem;
+    }
+
+    .experience-highlights li,
+    .experience-achievements li {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .experience-reflection p {
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 480px) {
     .experience {
-        padding: 40px 14%;
+        padding: 30px 4%;
     }
-    
+
     .experience-card {
-        padding: 2rem;
+        padding: 1.2rem;
     }
-    
-    .company-logo {
-        width: 120px;
-        height: 120px;
+
+    .company-logo img {
+        width: 100px;
     }
-    
+
     .company-details h2 {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
-    
+
     .company-details h3 {
+        font-size: 0.9rem;
+    }
+
+    .position-info h4 {
         font-size: 1rem;
     }
-    
-    .experience-highlights,
-    .experience-achievements {
-        padding: 1.5rem;
+
+    .experience-highlights h5,
+    .experience-achievements h5 {
+        font-size: 1.1rem;
     }
-    
+
     .experience-highlights li,
     .experience-achievements li {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .experience-reflection p {
+        font-size: 0.85rem;
     }
 }
 
