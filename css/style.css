@@ -1782,3 +1782,20 @@ section::before {
         max-width: 1600px;
     }
 }
+
+.cert-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.cert-link:hover {
+    background-color: var(--text-color);
+    transform: translateY(-2px);
+}
