@@ -1432,6 +1432,18 @@ section::before {
     padding: 0 1rem;
 }
 
+.project-card i {
+    font-size: 4rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover i {
+    transform: scale(1.1);
+    color: var(--text-color);
+}
+
 /* Services Section */
 .services {
     padding: 80px 14%;
